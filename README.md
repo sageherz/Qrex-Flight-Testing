@@ -20,6 +20,7 @@ Below is an example of how to generate the mission file included in the reposito
  4. Same as #1, changing speed to 15 m/s.
  5. Same as #1, changing leg length to 200 m (~20 seconds).
  6. Same as #1, changing hold time to 20 seconds.
+
 To call the function to create this mission file, type into the command line:
 ```
 qrexMissionWrapper_2("Mission Files\","mission_test_file.plan",[39.795753, -83.065037],[10,15,10,10,10,10],[45,45,45,45,45,45],[0,0,45,0,0,0],[10,10,10,15,10,10],[300,300,300,300,200,300],[10,10,10,10,10,20])
