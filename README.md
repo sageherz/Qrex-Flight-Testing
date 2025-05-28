@@ -25,3 +25,5 @@ To call the function to create this mission file, type into the command line:
 ```
 qrexMissionWrapper_2("Mission Files\","mission_test_file.plan",[39.795753, -83.065037],[10,15,10,10,10,10],[45,45,45,45,45,45],[0,0,45,0,0,0],[10,10,10,15,10,10],[300,300,300,300,200,300],[10,10,10,10,10,20])
 ```
+
+(Make sure when calling the function, you are in the same folder where ```qrexMissionWrapper_2.mat``` and ```writeMission_2.mat``` are located, or have added a path to them in your workspace.)
